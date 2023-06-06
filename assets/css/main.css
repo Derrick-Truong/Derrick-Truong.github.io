@@ -3257,6 +3257,7 @@ input, select, textarea {
 	ul.feature-icons {
 		display: flex;
 		flex-wrap: wrap;
+		justify-content: center;
 		list-style: none;
 		margin: 3rem 0;
 		padding-left: 0;
@@ -3342,7 +3343,10 @@ input, select, textarea {
 					box-sizing: border-box;
 					align-items: stretch;
 		}
-
+.review-pic{
+	width:533px;
+	height: 282px;
+}
 		#wrapper section {
 			display: grid;
 			grid-template-areas: "header content" "footer content";
@@ -3934,6 +3938,10 @@ input, select, textarea {
 		#wrapper > section.intro > .content {
 			transition: transform 1s ease;
 		}
+.spots-pic img{
+	height:283px;
+	width:533px;
+}
 
 		body.is-preload #wrapper > section.intro {
 			opacity: 0;
