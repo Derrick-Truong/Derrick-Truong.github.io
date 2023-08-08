@@ -21,64 +21,125 @@
     <!-- Wrapper -->
     <div id="wrapper">
 
+
+        <!-- <script type="'text/javascript">
+    function stars(){
+        let count = 500;
+        let scene = document.querySelector('#wrapper');
+        let i =0;
+        while(i < count){
+            let star = document.createElement('i');
+            let x = Math.floor(Math.random() * window.innerWidth);
+            let y = Math.floor(Math.random() * window.innerHeight);
+            let duration = Math.random() * 10;
+            let size = Math.random() * 2;
+
+            star.style.left = x + 'px';
+            star.style.top = y + 'px';
+            star.style.width = 1+size+'px';
+            star.style.height = 1+size+'px';
+
+            wrapper.appendChild(star);
+            i++
+        }
+    }
+    stars();
+</script> -->
         <!-- Intro -->
         <div class="intro">
-            <header id="header">
-				<a class="profile avatar""><img src="images/image0.png" alt="pic"/></a>
-                <div class="picture-name-container">
-                <a>
-					<span class="profile-greeting"">Hello, I'm Derrick.</span>
-                    <h2>A full-stack web developer based in Berkeley. I create websites centered around giving users a
-                        thoughtful and unique experience.</h2>
-						<ul class="actions">
-							<li><a href="https://docs.google.com/document/d/e/2PACX-1vQoFdh69Avd1bIJbtvFgTRCmYyTrB4uFJ_cq1u2GIBwEI8V1keBMDU2TAUE8IpddukeFkFG40jSIiMt/pub" class="button large">Resume</a></li>
-							<li><a href="#5" class="button large">Contact Me</a></li>
-						</ul>
-								<footer>
-									<ul class="items">
-										<li>
-											<ul class="icons">
-												<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-												<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a>
-												</li>
-												<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a>
-												</li>
-												<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a>
-												</li>
-												<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-												<li><a href="#" class="icon brands fa-codepen"><span class="label">Codepen</span></a></li>
-											</ul>
-										</li>
-									</ul>
-								</footer>
+            <!-- <div class="moon"></div> -->
 
-                </a>
-                </div>
-                <!-- <ul class="actions">
+            <script src="assets/js/stars.js"></script>
+            <header id="header">
+                <div class="profile avatar""><img src=" images/image0.png" alt="pic" />
+
+        </div>
+        <div class="picture-name-container">
+            <div>
+                <span class="profile-greeting"">Hello, I'm Derrick.</span>
+                    <h2>A full-stack web developer based in Berkeley, California. I create websites centered around giving users a
+                        thoughtful and unique experience.</h2>
+						<ul class="shortcut-list">
+                    <li><a href="https://docs.google.com/document/d/e/2PACX-1vQoFdh69Avd1bIJbtvFgTRCmYyTrB4uFJ_cq1u2GIBwEI8V1keBMDU2TAUE8IpddukeFkFG40jSIiMt/pub"
+                            class="button large">Resume</a></li>
+                    <li><a href="#5" class="button large">Contact Me</a>
+                        <a href="first" class="button large">About Me</a>
+                        <a href="#2" class="button large">Projects</a>
+                    </li>
+                    </ul>
+                    <footer>
+                        <ul class="items">
+                            <li class="items-list">
+                                <ul class="icons">
+                                    <li><a href="#" class="icon brands fa-twitter"><span
+                                                class="label">Twitter</span></a></li>
+                                    <li><a href="#" class="icon brands fa-facebook-f"><span
+                                                class="label">Facebook</span></a>
+                                    </li>
+                                    <li><a href="#" class="icon brands fa-instagram"><span
+                                                class="label">Instagram</span></a>
+                                    </li>
+                                    <li><a href="#" class="icon brands fa-linkedin-in"><span
+                                                class="label">LinkedIn</span></a>
+                                    </li>
+                                    <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a>
+                                    </li>
+                                    <li><a href="#" class="icon brands fa-codepen"><span
+                                                class="label">Codepen</span></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </footer>
+
+            </div>
+        </div>
+        <!-- <ul class="actions">
                     <li><a href="#first" class="arrow scrolly"><span class="label">Next</span></a></li>
                 </ul> -->
-            </header>
-        </div>
+        </header>
+        <img src="images/forest.png" class="forest">
+    </div>
 
-        <!-- Section -->
-		<div className="main-container">
+    <!-- Section -->
+    <div className="main-container">
         <section id="first">
             <header>
             </header>
-            <div class="content">
-				<br></br>
-				<div class="my-journey-header">My Journey</div>
-                <p>Combined with my immense curiosity in web-development and its ever expanding role in society, I knew
+            <div class="content-2">
+                <br></br>
+                <div class="highlight-2"><div>About Me</div><div></div></div>
+                <div class="about-container">
+                <h3>These are the technical skills I have mastered and a little summary of my journey.</h3>
+
+                    <div class="skills">
+                        <ul class="skills-list">
+                            <li>JavaScript</li>
+                            <li>Python</li>
+                            <li>React</li>
+                            <li>Node.js</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>AWS</li>
+                            <li>Google Maps</li>
+                            <li>PostgreSQL</li>
+                        </ul>
+                    </div>
+                <p>Combined with my immense curiosity in web-development and its ever expanding role in society, I
+                    knew
                     my calling and
                     aspiring career choice lay in the tech industry. Throughout my life, I have consistently been
                     exposed to coding and
                     web-application from my step-father. As a side-project, my step-father constructed a website
                     centered around a course he
-                    created that helped guide people on creating start-up businesses. Every 1-2 months, I would ask for
+                    created that helped guide people on creating start-up businesses. Every 1-2 months, I would ask
+                    for
                     an update on the
-                    development of his website. He would show me certain codes and the functionalities of it. Although I
+                    development of his website. He would show me certain codes and the functionalities of it.
+                    Although I
                     did not understand
-                    the language and syntax of the code, I was fascinated by how these lines of numbers, letters, and
+                    the language and syntax of the code, I was fascinated by how these lines of numbers, letters,
+                    and
                     symbols could be the
                     backbone of so many functionalities of his website. Though the logical choice would have been to
                     pursue a degree in
@@ -88,113 +149,202 @@
 
                     Fast forward to a few months after graduating and working at a small accounting firm, I quickly
                     realized my skills and
-                    passion were not suited for the financial industry. I had a brief conversation with my step-father
+                    passion were not suited for the financial industry. I had a brief conversation with my
+                    step-father
                     about my predicament
                     of a career choice and he wisely suggested that I do some research about coding boot camps,
                     recalling all the past
-                    interactions we shared about his website. After extensive research, I enrolled in the well-known App
+                    interactions we shared about his website. After extensive research, I enrolled in the well-known
+                    App
                     Academy program.
-                    For the past year, it has been a rigorous and enlightening experience that has cemented my choice of
+                    For the past year, it has been a rigorous and enlightening experience that has cemented my
+                    choice of
                     becoming a web
                     developer.
 
-                    Though I do not have a traditional educational background as a web-developer, the choice to pivot
+                    Though I do not have a traditional educational background as a web-developer, the choice to
+                    pivot
                     career paths after
-                    receiving a degree in a completely different field demonstrates my dedication and genuine passion as
+                    receiving a degree in a completely different field demonstrates my dedication and genuine
+                    passion as
                     a web-developer.
                     Everyday I strive to expand and reinforce my knowledge in coding to help expand on the infinite
                     potential of website
-                    development and designing. If you have any questions or want to get in contact, <strong>I am always
+                    development and designing. If you have any questions or want to get in contact, <strong>I am
+                        always
                         available at my email
                         provided at the bottom of the page.</strong></p>
+<button class="bio-button">Read More of my Bio</button>
+                        </div>
             </div>
         </section>
-        <section>
+        <section id="2">
             <div class="content">
-				<div class="technical-skills">Technical Skills</div>
-                <h1 class="feature-icons">
-                    <span><i class="devicon-javascript-plain skill"></i></span>
-                    <span><i class="devicon-react-plain skill"></i></span>
-                    <span><i class="devicon-html5-plain skill"></i></span>
-                    <span><i class="devicon-nodejs-plain skill"></i></span>
-                    <span><i class="devicon-amazonwebservices-original skill"></i></span>
-                    <span><i class="devicon-css3-plain skill"></i></span>
-                    <span><i class="devicon-express-original skill"></i></span>
-				</h1>
-				<br></br>
-				<h2>Below are a few projects that demonstrate my wide range of capabilities.</h2>
-				<div class='projects-container'>
-					<div class="spots-pic">
-						<img class='preview-pic' src="images/photo-2.png" alt="pic"/>
-						<ul class="actions">
-							<li class="project-list">
-								<a href="https://spork-group-project.onrender.com"
-									class="button large"> Live </a></li>
-							<li><a href="https://github.com/Miketuazon/Spork" class="button large">Git Hub</a></li>
-						</ul>
-					</div>
-						<div class="spots-pic">
-						<img class='preview-pic' src="images/photo-1.png" alt="pic" />
-							<ul class="actions">
-								<li class="project-list">
-									<a href="https://drbnb-d61e.onrender.com"
-										class="button large">Live</a></li>
-								<li><a href="https://github.com/Derrick-Truong/Air_Bnb" class="button large">Git Hub</a></li>
-							</ul>
-						</div>
-						<div class="spots-pic">
-							<img class='preview-pic' src="images/photo-3.png" alt="pic" />
-							<ul class="actions">
-								<li class="project-list">
-									<a href="https://icecreamdelight.onrender.com/"
-										class="button large">Live</a></li>
-								<li><a href="https://github.com/Derrick-Truong/Ice-Cream-Delight" class="button large">Git Hub</a></li>
-							</ul>
-							</div>
-							</div>
-            </div>
 
-        </section>
-        <section id="5">
-            <div class="content">
-                <p>If you want to get to get in contact whether it be about a potential job or even just want to get to know me better, feel free to email me. Have a wonderful day!</p>
-                <form>
-                    <div class="fields">
-                        <div class="field half">
-                            <input type="text" name="name" id="name" placeholder="Name" />
-                        </div>
-                        <div class="field half">
-                            <input type="email" name="email" id="email" placeholder="Email" />
-                        </div>
-                        <div class="field">
-                            <textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
-                        </div>
-                    </div>
+                <br></br>
+                <div class="highlight"><div>Projects</div><div></div></div>
+                <h3 class="about-container">Below are a few projects that demonstrate my wide range of capabilities.</h3>
+                <div class="project-outer-container">
+                <div class='project-container'>
                     <ul class="actions">
-                        <li><input type="submit" value="Send Message" class="button primary" /></li>
+                        <li class="project-description">
+                            <div class="project-title">Spork</div>
+                            <div class="one-skills">
+                                <ul class="one-skills-list">
+                                    <li>JavaScript</li>
+                                    <li>Python</li>
+                                    <li>React</li>
+                                    <li>Node.js</li>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>PostgreSQL</li>
+                                </ul>
+                            </div>
+                            <div class="project-explain">
+                                Welcome to SPORK, a modern web app that enables users to create posts and share them with other users via a personalized
+                                feed. With SPORK, you can share your thoughts, ideas, and experiences with the world, and connect with like-minded
+                                individuals who share your interests.
+                            </div>
+                            <div>
+                                <!-- <a href="https://spork-lnm4.onrender.com" class="button project"> Live
+                                    </a>
+                                <a href="https://github.com/Miketuazon/Spork" class="button project">Git
+                                        Hub</a> -->
+                            </div>
+                        </li>
+                        <li><img class='preview-pic' src="images/Spork_feed.gif" alt="pic" />
+                            <a href="https://spork-lnm4.onrender.com" class="button project"> Live
+                            </a>
+                            <a href="https://github.com/Miketuazon/Spork" class="button project">Git
+                                Hub</a>
+                        </li>
 
                     </ul>
-					<div>
-					<span>
-						<a href="#">
-						<div class="email-address-header">Email</div>
-						dtruong169@gmail.com</a>
-						<div class='email-address-header'>Address</div>
-						Berkeley, California
-					</span>
-					</div>
-                </form>
+
+                </div>
+                <div class="project-container">
+                    <ul class="actions">
+                    <li class="project-description">
+                        <div class="project-title">Air BnB</div>
+                            <div class="one-skills">
+                                <ul class="one-skills-list">
+                                    <li>JavaScript</li>
+
+                                    <li>React</li>
+                                    <li>Node.js</li>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+
+                                    <li>PostgreSQL</li>
+                                </ul>
+                            </div>
+                            <div class="project-explain">Welcome to DrBnb, it provides a platform where hosts can list their properties, set their own prices, and manage
+                            bookings, while travelers can search and book unique accommodations worldwide.
+<!--
+                                <a href="https://drbnb-d61e.onrender.com" class="button project"> Live
+                                    </a>
+                                <a href="https://github.com/Derrick-Truong/Air_Bnb" class="button project">Git
+                                        Hub</a> -->
+                                    </div>
+                    </li>
+                        <li><img class='preview-pic'
+                                src="https://github.com/Derrick-Truong/Air_Bnb/assets/111938093/43cbaa64-20f4-42fc-a526-78261a55b717"
+                                alt="pic" />
+                                    <a href="https://drbnb-d61e.onrender.com" class="button project"> Live
+                                    </a>
+                                    <a href="https://github.com/Derrick-Truong/Air_Bnb" class="button project">Git
+                                        Hub</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="project-container">
+                    <ul class="actions">
+                        <li class="project-description">
+
+                            <div class="project-title">IceCream Finder</div>
+
+                                <div class="one-skills">
+                                    <ul class="one-skills-list">
+                                        <li>JavaScript</li>
+                                        <li>React</li>
+                                        <li>Node.js</li>
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>AWS</li>
+                                        <li>Google Maps</li>
+                                        <li>PostgreSQL</li>
+                                    </ul>
+                                </div>
+                                <div class="project-explain">
+                                    Welcome to IceCreamFinder, a web application that allows users to discover and share their favorite ice cream shops.
+                                    With IceCreamFinder, you can find delicious ice cream spots near you, leave reviews, and get directions to your favorite
+                                    sweet treats.
+                                </div>
+                                <div>
+                                    <!-- <a href="https://icecreamdelight.onrender.com/" class="button project"> Live
+                                        </a>
+                                    <a href="https://github.com/Derrick-Truong/Ice-Cream-Delight" class="button project">Git
+                                            Hub</a> -->
+                                </div>
+                        </li>
+                        <li class="preview-container"><img class='preview-pic'
+                                src="https://github.com/Derrick-Truong/Ice-Cream-Delight/assets/111938093/0b1fdbe5-c647-43c6-a8fd-1b9dc060ee46"
+                                alt="pic" />
+                                <a href="https://icecreamdelight.onrender.com/" class="button project"> Live
+                                </a>
+                                <a href="https://github.com/Derrick-Truong/Ice-Cream-Delight" class="button project">Git
+                                    Hub</a>
+                        </li>
+                    </ul>
+                </div>
+                </div>
             </div>
-            <footer>
-              
-            </footer>
-        </section>
-		</div>
-        <!-- Copyright -->
-        <div class="copyright">&copy; Untitled. All rights reserved. Design: <a href="https://html5up.net">HTML5 UP</a>.
+    </div>
+
+    </section>
+    <section id="5">
+
+
+        <div class="content">
+            <div class="highlight-3">
+                <div>Contact Me</div>
+                <div></div>
+            </div>
+            <p>If you want to get to get in contact whether it be about a potential job or even just want to get
+                to know me better, feel free to email me. Have a wonderful day!</p>
+            <form>
+                <div class="fields">
+                    <div class="field half">
+                        <input type="text" name="name" id="name" placeholder="Name" />
+                    </div>
+                    <div class="field half">
+                        <input type="email" name="email" id="email" placeholder="Email" />
+                    </div>
+                    <div class="field">
+                        <textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
+                    </div>
+                </div>
+                <ul class="actions">
+                    <!-- <li><input type="submit" value="Send Message" class="button project" /></li> -->
+
+                </ul>
+                <div>
+                    <!-- <span>
+                        <a href="#">
+                            <div class="email-address-header">Email</div>
+                            dtruong169@gmail.com
+                        </a>
+
+                    </span> -->
+                </div>
+            </form>
         </div>
 
+    </section>
     </div>
+    <!-- Copyright -->
+
+
 
     <!-- Scripts -->
     <script src="assets/js/jquery.min.js"></script>
@@ -203,7 +353,35 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    </div>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const p = document.querySelector('.about-container > p');
+        const btn = document.querySelector('.about-container > button');
 
+        // Function to update the view based on the paragraph's state
+        function updateView(expanded) {
+            if (expanded) {
+                p.classList.remove('short-text');
+                btn.textContent = 'Close';
+            } else {
+                p.classList.add('short-text');
+                btn.textContent = 'Read More of my Bio';
+            }
+        }
+
+        // Check if text is longer than 300 chars
+        if (p.textContent.length > 300) {
+            updateView(false);
+
+            // Attach click event to button
+            btn.addEventListener('click', function () {
+                const isExpanded = p.classList.contains('short-text') === false;
+                updateView(!isExpanded);
+            });
+        }
+    });
+</script>
 </body>
 
 </html>
